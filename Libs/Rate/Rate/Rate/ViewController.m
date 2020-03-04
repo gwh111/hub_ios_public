@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "ccs+Rate.h"
 
 @interface ViewController ()
 
@@ -20,6 +21,10 @@
 
 - (void)cc_viewDidLoad {
 	 // Do any additional setup after loading the view.
+    
+    [ccs.rate aCheckRate:@"哈哈" content:@"asdasd" block:^(BOOL rated) {
+        
+    }];
 }
 
 @end
