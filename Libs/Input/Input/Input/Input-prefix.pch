@@ -1,0 +1,16 @@
+//
+//  Input-prefix.pch
+//  Input
+//
+//  Created by gwh on 2020/3/5.
+//  Copyright © 2020 gwh. All rights reserved.
+//
+
+#ifndef Input_pch
+#define Input_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "ccs.h"
+
+#endif /* Input_pch */
