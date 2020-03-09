@@ -11,7 +11,7 @@
 @implementation ccs (Rate)
 
 + (Rate *)rate {
-    return [ccs init:Rate.class];
+    return Rate.shared;
 }
 
 @end

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2EC9DD6674797120261B0E4C /* libPods-Rate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CFA632C1989E1D6CB4FD57D6 /* libPods-Rate.a */; };
+		D85354AC2415D814005C26B2 /* RateAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D85354AB2415D814005C26B2 /* RateAppDelegate.m */; };
 		D8E1B13A240F55F40082A60F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E1B139240F55F40082A60F /* main.m */; };
 		D8E1B13D240F55F40082A60F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E1B13C240F55F40082A60F /* AppDelegate.m */; };
 		D8E1B13F240F55F40082A60F /* Rate-prefix.pch in Resources */ = {isa = PBXBuildFile; fileRef = D8E1B13E240F55F40082A60F /* Rate-prefix.pch */; };
@@ -41,6 +42,8 @@
 /* Begin PBXFileReference section */
 		1F764A040CF338A7B9D5DDF0 /* Pods-Rate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rate.debug.xcconfig"; path = "Target Support Files/Pods-Rate/Pods-Rate.debug.xcconfig"; sourceTree = "<group>"; };
 		CFA632C1989E1D6CB4FD57D6 /* libPods-Rate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Rate.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D85354AA2415D814005C26B2 /* RateAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RateAppDelegate.h; sourceTree = "<group>"; };
+		D85354AB2415D814005C26B2 /* RateAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RateAppDelegate.m; sourceTree = "<group>"; };
 		D8E1B136240F55F40082A60F /* Rate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8E1B139240F55F40082A60F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D8E1B13B240F55F40082A60F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -165,6 +168,8 @@
 				D8E1B16F240F56680082A60F /* ccs+Rate.m */,
 				D8E1B171240F56770082A60F /* Rate.h */,
 				D8E1B172240F56770082A60F /* Rate.m */,
+				D85354AA2415D814005C26B2 /* RateAppDelegate.h */,
+				D85354AB2415D814005C26B2 /* RateAppDelegate.m */,
 			);
 			path = Rate;
 			sourceTree = "<group>";
@@ -352,6 +357,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D85354AC2415D814005C26B2 /* RateAppDelegate.m in Sources */,
 				D8E1B173240F56770082A60F /* Rate.m in Sources */,
 				D8E1B142240F55F40082A60F /* ViewController.m in Sources */,
 				D8E1B170240F56680082A60F /* ccs+Rate.m in Sources */,
@@ -527,6 +533,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V988GE98EW;
 				INFOPLIST_FILE = Rate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -544,6 +551,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V988GE98EW;
 				INFOPLIST_FILE = Rate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
