@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
 spec.name  = 'Language'
-spec.version = '1.0.0'
+spec.version = '1.0.1'
 spec.summary = 'summary'
 spec.license = { :type => 'MIT' }
 spec.author = { 'gwh' => 'email' }

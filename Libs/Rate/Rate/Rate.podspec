@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
 spec.name  = 'Rate'
-spec.version = '1.0.3'
+spec.version = '1.0.4'
 spec.summary = 'summary'
 spec.license = { :type => 'MIT' }
 spec.author = { 'GAO <gwh199099@hotmail.com>' => 'email' }

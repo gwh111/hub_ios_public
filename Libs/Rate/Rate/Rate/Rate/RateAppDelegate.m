@@ -30,7 +30,7 @@
     if (Rate.shared.jump) {
         Rate.shared.jump = 0;
         NSDate *currentDate = [NSDate date];
-        NSTimeInterval t = [ccs function_compareDate:currentDate cut:Rate.shared.backgroundDate];
+        NSTimeInterval t = [ccs.tool compareDate:currentDate cut:Rate.shared.backgroundDate];
         if (t >= 5) {
             // 超过5秒 算打过分了
             if (Rate.shared.jumpBackBlock) {
