@@ -6,8 +6,8 @@ You can use [PodsManager](https://github.com/gwh111/PodsManager) to install all 
 
 After install the 'source', free to install/uninstall the following pods:  
 
-Input
-Pop a input textView.
+Input  
+Pop a input textView.  
 ```
 Input *c = ccs.input;
 [self.view addSubview:c.displayView];
@@ -16,14 +16,14 @@ Input *c = ccs.input;
 }];
 ```
 
-Language
-Localized with iOS device language.
+Language  
+Localized with iOS device language.  
 ```
 id la = LANGUAGE(@"标题", @"Title");
 ```
 
-Rate
-Auto check app's rate. 
+Rate  
+Auto check app's rate.   
 ```
 // 自定义概率弹出打分弹窗
 [ccs.rate checkRate:@"appId" ratedOnce:NO rateProb:100 inAppRateProb:0 title:@"标题" content:@"内容" btnTitles:@[@"取消",@"确定",] block:^(BOOL rated) {
