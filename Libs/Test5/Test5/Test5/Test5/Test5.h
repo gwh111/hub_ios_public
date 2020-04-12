@@ -12,6 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface Test5 : CC_Object
 
+// 1.0.1
 - (void)test;
 
 @end
