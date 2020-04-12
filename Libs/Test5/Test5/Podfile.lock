@@ -1,0 +1,18 @@
+PODS:
+  - bench_ios (2.2.3):
+    - bench_ios/CC_Core (= 2.2.3)
+  - bench_ios/CC_Core (2.2.3)
+
+DEPENDENCIES:
+  - bench_ios
+
+SPEC REPOS:
+  trunk:
+    - bench_ios
+
+SPEC CHECKSUMS:
+  bench_ios: 3a5bac5308c102085370aa6f8a4f6e15ee7b1102
+
+PODFILE CHECKSUM: b89d320dbcf23b49bf76a752771573d13ed16b85
+
+COCOAPODS: 1.9.1
